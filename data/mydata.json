@@ -1,0 +1,28 @@
+{
+	"overall": {
+		"repeated": 92,
+		"singular": 8
+	},
+	"placefeeling": [
+		{
+			"place": "Home",
+			"content": 8,
+			"frustrated": 7			
+		},
+		{
+			"place": "NYU",
+			"content": 7,
+			"frustrated": 8			
+		},
+		{
+			"place": "Outside",
+			"content": 2,
+			"frustrated": 8			
+		},		
+		{
+			"place": "Jason's House",
+			"content": 4,
+			"frustrated": 6			
+		}				
+	]
+}

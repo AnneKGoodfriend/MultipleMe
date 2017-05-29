@@ -1,0 +1,281 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+/*html, body {
+  height: 100%;
+}*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
+    color: #222;
+    background-color: #f1f1f1;
+  	background:#f1f1f1;
+	padding: 0;
+	margin: 0;
+	/*text-align: center*/
+}
+
+canvas {
+	vertical-align: top;
+	margin: 0;
+  	display: flex;
+
+  	/* This centers our sketch horizontally. */
+  	justify-content: center;
+}
+
+h4{
+	text-align: center;
+	font-size: 20px;
+	/*color: rgb(252, 98, 93);*/
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background:#f1f1f1;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+   	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+#about {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 0px 20px 20px 20px;
+}
+
+#menu {
+	/*padding-top: 20px;*/
+/*	margin: auto;
+    width: 50%;*/
+    /*border: 3px solid green;*/
+    /*padding: 10px;*/
+}
+
+select {
+	font-weight: 400;
+	font-size: 14px;
+	text-indent: 3px;
+	text-align: center
+	width: 90px;
+	margin: 0;
+	-webkit-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;
+	-moz-box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;
+	box-shadow: 0 1px 0 #ccc, 0 -1px #fff inset;
+	/*background: url('http://i62.tinypic.com/2e3ybe1.jpg') no-repeat;*/
+	height: 34px;
+   	width: 160px;
+	color: #000;
+	outline: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.myButton {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color: transparent;
+	border-color: #fc625d;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fc625d;
+	font-size:20px;
+	padding:13px 32px;
+	line-height: 1;
+	width:200px;
+}
+
+.myButton:hover {
+
+	background-color: #fc625d;
+	color:#fff;
+}
+.myButton:active {
+	background-color: #fc625d;
+	color:#fff;
+	position:relative;
+	top:1px;
+}
+
+.myButton.active {
+	background-color: #fc625d;
+	color:#fff;
+	position:relative;
+	top:1px;
+}
+
+.selected{
+	background-color: #fc625d;
+	color:#fff;
+	position:relative;
+	top:1px;
+}
+
+#defaultCanvas{
+    position: relative;
+    width: 100%;
+
+     /*display: flex;*/
+
+	  /* This centers our sketch horizontally. */
+	  justify-content: center;
+
+	  /* This centers our sketch vertically. */
+	  align-items: center;
+}
+
+.holder{
+/*position: absolute;*/
+	text-align: left;
+	height: 370px;
+    width: 200px;
+    /*overflow:hidden;*/
+    overflow: scroll;
+}
+
+.questions{
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.answers{
+	/*padding: 10px 0px 0px 10px;*/
+	margin: 3px 0px 0px;
+	font-weight: normal;
+	font-size: 14px;
+
+}
+
+#graphs{
+	/*position: relative;
+	margin:0 auto;
+    top: 20px;*/
+    /*right:;
+    left: 0px;*/
+    margin-top: -40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.chart-legend li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+}
+
+.rdchart-legend li span{
+    /*display: inline-block;*/
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    /*margin: 0 auto;*/
+    /*text-align: left;*/
+    text-align: center;
+}
+.rdchart-legend {
+
+    text-align: center;
+}
+
+#customChartHolder{
+  margin: 20px 0 50px;
+  text-align: center;
+}
+
+.barChart {
+  height: 25px;
+  width: 50%;
+  float: left; 
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;  
+}
+
+#alone {
+  background-color: #64404c;
+  width:15%
+}
+
+#both {
+  background-color: #7d4d76;
+  width:35%
+}
+
+#withpeople {
+  background-color: #fc625d;
+  width:50%
+}
+
+.heading-holder{
+    padding: 0 0 10px 0px;
+    /*max-width: 824px;*/
+    margin: 45px 0px 20px;
+    /*border-bottom: 1px solid #cdcdcd;*/
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.stats-holder{
+	float: left;
+  padding: 20px 35px 25px 0px;
+  display: block;
+  font-size: 13px;
+  letter-spacing: normal;  
+}
+
+.stats-holder span{
+  font-size: 32px;	
+	font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#singular {
+	color: #fc625d;
+}
+
+#repeated {
+	color: #68d7c5;
+}
+
+canvas{
+	margin: 0 auto;
+  display: block;
+}
+
+.section-holder {
+	padding-bottom: 15px;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.doughnutChartHolder{
+	margin-top: 5px;
+}
